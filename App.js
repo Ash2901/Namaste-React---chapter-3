@@ -1,10 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const heading = React.createElement("div", { id: "heading", abc: "xyz" }, 
-[React.createElement("h1", {},"Hello world by React"), 
-React.createElement("h2", {}," Namaste React!")]);
-//console.log(heading);
+// const heading = React.createElement("h1", {id: "heading"}, "Namaste React");
+
+const heading = <h1 id="heading"> Namaste React using JSX 🚀 </h1>
 const root = ReactDOM.createRoot(document.getElementById("root"));
-//console.log(root);
 root.render(heading);
