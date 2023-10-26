@@ -6,5 +6,31 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  }
+  },
+  "name": "chapter-3",
+  "version": "1.0.0",
+  "description": "Chatper 3 containts",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ash2901/Namaste-React---chapter-3.git"
+  },
+  "keywords": [
+    "\"Ashish\"",
+    "\"Kumar\""
+  ],
+  "author": "Ashish Kumar",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Ash2901/Namaste-React---chapter-3/issues"
+  }, 
+  "browserlist": [
+    "last 3 version"
+  ],
+  "homepage": "https://github.com/Ash2901/Namaste-React---chapter-3#readme"
 }
